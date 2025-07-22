@@ -11,4 +11,4 @@ const ticketSchema = new mongoose.Schema({
    relatedSkills: [String],
    createdAt: {type: Date, default: Date.now}
 })
-export default mongoose.model('Ticket', ticketSchema)
+export const Ticket =  mongoose.model('Ticket', ticketSchema)
